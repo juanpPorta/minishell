@@ -2,12 +2,12 @@
 
 ## About
 
-I am jsanfeli (42 login) and this is my Minishell
+I am jPorta (42 login) and this is my Minishell
 Minishell is the second project of the Unix branch at 42.
 It's a minimum viable version of a real shell.
 The main goal is to have a good understanding of process creation and
 synchronisation using the C programmming language.
-This proyect is in pairs. My partner is jporta (42 login), juanpPorta (Github login).
+This proyect is in pairs. My partner is jsanfeli (42 login).
 
 ## Installation & Usage
 
@@ -22,7 +22,7 @@ Those versions are the ones used during development.
 
 1. Download/Clone this repo
 
-        git clone https://github.com/KiriamBlu/minishell
+        git clone https://github.com/juanpPorta/minishell.git
 2. `cd` into the root directory and run `make`
 
         cd minishell
@@ -59,22 +59,21 @@ After building the source, run `./minishell` from the project root.
 
 ## Workload sharing.
 
-- KiriamBlu: 
-         - Builtins
-         - Redirections, Indirections, Appends, Heredoc
-         - Expander, Lexer, Parser
-         - Basic structure (Execution estructure)
-         - Enviroment structure and relation with program
-         - Character handeling
-         - Implemented relation between builtins and cmds
-         - Signals
-         - Cmd status
-         - Test and debbuging
-- juanpPorta:
-         - Estructure of cmds execution
+- juanpPorta:
+-        - Estructure of cmds execution
          - Implemented path checking
          - Execution of cmds with pipes
          - Implemented relation between builtins and cmds
+         - Basic structure (Execution estructure)
+         - Enviroment structure and relation with program
+         - Character handeling
+- KiriamBlu:
+         - Builtins
+         - Redirections, Indirections, Appends, Heredoc
+         - Expander, Lexer, Parser
+         - Test and debbuging
+         - cmd status
+         - signals
          - Test and debbuging
 
 ## Notes
