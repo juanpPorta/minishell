@@ -60,9 +60,11 @@ After building the source, run `./minishell` from the project root.
 ## Workload sharing.
 
 - juanpPorta:
--        - Estructure of cmds execution
+         - Estructure of cmds execution
          - Implemented path checking
          - Execution of cmds with pipes
+         - Redirections, Indirections, Appends, Heredoc
+         - Expander, Lexer, Parser
          - Implemented relation between builtins and cmds
          - Basic structure (Execution estructure)
          - Enviroment structure and relation with program
